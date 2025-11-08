@@ -126,7 +126,16 @@ async function exerciseMenu(topic, exercise) {
     .replace('5.str-methods', '5-string-methods')
     .replace('6.conditional', '6-conditionals')
     .replace('7.functions', '7-functions')
-    .replace('linked-list', '8-linked-lists');
+    .replace('linked-list', '8-linked-lists')
+    .replace('9.algo-techniques', '9-algo-techniques')
+    .replace('10.helper-methods', '10-helper-methods')
+    .replace('11.common-patterns', '11-common-patterns')
+    .replace('12.searching-algos', '12-searching-algos')
+    .replace('13.recursion', '13-recursion')
+    .replace('14.sorting-algos', '14-sorting-algos')
+    .replace('15.data-structures', '15-data-structures')
+    .replace('16.hackerrank', '16-hackerrank')
+    .replace('17.leetcode', '17-leetcode');
 
   const exerciseId = exercise.id
     .replace('1.map', '1-map')
@@ -147,7 +156,16 @@ async function exerciseMenu(topic, exercise) {
     .replace('1.string', '1-string-methods')
     .replace('1.conditional', '1-conditionals')
     .replace('1.functions', '1-functions')
-    .replace('1.linked-list', '1-linked-lists');
+    .replace('1.linked-list', '1-linked-lists')
+    .replace('1.two-pointer', '1-two-pointer')
+    .replace('1.utility-functions', '1-utility-functions')
+    .replace('1.sliding-window', '1-sliding-window')
+    .replace('1.binary-search', '1-binary-search')
+    .replace('1.basic-recursion', '1-basic-recursion')
+    .replace('1.bubble-sort', '1-bubble-sort')
+    .replace('1.stacks-queues', '1-stacks-queues')
+    .replace('1.warm-up', '1-warm-up')
+    .replace('1.easy-problems', '1-easy-problems');
 
   const exercisePath = path.join(__dirname, '..', 'exercises', topicId, exerciseId);
 
@@ -245,7 +263,19 @@ function runTests(exercise, topic) {
       .replace('5.str-methods', '5-string-methods')
       .replace('6.conditional', '6-conditionals')
       .replace('7.functions', '7-functions')
-      .replace('linked-list', '8-linked-lists');
+      .replace('linked-list', '8-linked-lists')
+      .replace('9.algo-techniques', '9-algo-techniques')
+      .replace('10.helper-methods', '10-helper-methods')
+      .replace('11.common-patterns', '11-common-patterns')
+      .replace('12.searching-algos', '12-searching-algos')
+      .replace('13.recursion', '13-recursion')
+      .replace('14.sorting-algos', '14-sorting-algos')
+      .replace('15.data-structures', '15-data-structures')
+      .replace('16.eloquent-js', '16-eloquent-js')
+      .replace('17.hackerrank', '17-hackerrank')
+      .replace('18.interview-questions', '18-interview-questions')
+      .replace('19.leetcode', '19-leetcode')
+      .replace('20.misc', '20-misc');
 
     const exerciseId = exercise.id
       .replace('1.map', '1-map')
@@ -266,7 +296,19 @@ function runTests(exercise, topic) {
       .replace('1.string', '1-string-methods')
       .replace('1.conditional', '1-conditionals')
       .replace('1.functions', '1-functions')
-      .replace('1.linked-list', '1-linked-lists');
+      .replace('1.linked-list', '1-linked-lists')
+      .replace('1.two-pointer', '1-two-pointer')
+      .replace('1.utility-functions', '1-utility-functions')
+      .replace('1.sliding-window', '1-sliding-window')
+      .replace('1.binary-search', '1-binary-search')
+      .replace('1.basic-recursion', '1-basic-recursion')
+      .replace('1.bubble-sort', '1-bubble-sort')
+      .replace('1.stacks-queues', '1-stacks-queues')
+      .replace('1.ejs-basics', '1-ejs-basics')
+      .replace('1.warm-up', '1-warm-up')
+      .replace('1.common-interview', '1-common-interview')
+      .replace('1.easy-problems', '1-easy-problems')
+      .replace('1.misc-challenges', '1-misc-challenges');
 
     const testFile = `exercises/${topicId}/${exerciseId}/solution.test.js`;
     exec(`npm test -- "${testFile}" -- --no-coverage 2>&1`, (error, stdout, stderr) => {
@@ -315,7 +357,16 @@ async function resetExercise(topic, exercise) {
     .replace('5.str-methods', '5-string-methods')
     .replace('6.conditional', '6-conditionals')
     .replace('7.functions', '7-functions')
-    .replace('linked-list', '8-linked-lists');
+    .replace('linked-list', '8-linked-lists')
+    .replace('9.algo-techniques', '9-algo-techniques')
+    .replace('10.helper-methods', '10-helper-methods')
+    .replace('11.common-patterns', '11-common-patterns')
+    .replace('12.searching-algos', '12-searching-algos')
+    .replace('13.recursion', '13-recursion')
+    .replace('14.sorting-algos', '14-sorting-algos')
+    .replace('15.data-structures', '15-data-structures')
+    .replace('16.hackerrank', '16-hackerrank')
+    .replace('17.leetcode', '17-leetcode');
 
   const exerciseId = exercise.id
     .replace('1.map', '1-map')
@@ -336,7 +387,16 @@ async function resetExercise(topic, exercise) {
     .replace('1.string', '1-string-methods')
     .replace('1.conditional', '1-conditionals')
     .replace('1.functions', '1-functions')
-    .replace('1.linked-list', '1-linked-lists');
+    .replace('1.linked-list', '1-linked-lists')
+    .replace('1.two-pointer', '1-two-pointer')
+    .replace('1.utility-functions', '1-utility-functions')
+    .replace('1.sliding-window', '1-sliding-window')
+    .replace('1.binary-search', '1-binary-search')
+    .replace('1.basic-recursion', '1-basic-recursion')
+    .replace('1.bubble-sort', '1-bubble-sort')
+    .replace('1.stacks-queues', '1-stacks-queues')
+    .replace('1.warm-up', '1-warm-up')
+    .replace('1.easy-problems', '1-easy-problems');
 
   const backupPath = path.join(__dirname, '..', 'exercises', '__backups__', topicId, exerciseId);
   const exercisePath = path.join(__dirname, '..', 'exercises', topicId, exerciseId);

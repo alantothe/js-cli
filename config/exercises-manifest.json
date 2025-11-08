@@ -188,6 +188,209 @@
           "status": "Not Started"
         }
       ]
+    },
+    {
+      "id": "9.algo-techniques",
+      "name": "Common Algorithm Techniques",
+      "description": "Core algorithmic approaches and methodologies",
+      "exercises": [
+        {
+          "id": "1.two-pointer",
+          "name": "Two Pointer Technique",
+          "description": "Solve problems using two pointer approach",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3.dynamic-programming",
+          "name": "Dynamic Programming",
+          "description": "Solve optimization problems using memoization and tabulation",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        },
+        {
+          "id": "5.backtracking",
+          "name": "Backtracking",
+          "description": "Generate permutations and solve constraint satisfaction problems",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "10.helper-methods",
+      "name": "Helper Methods",
+      "description": "Utility functions and helper implementations",
+      "exercises": [
+        {
+          "id": "1.utility-functions",
+          "name": "Utility Functions",
+          "description": "Build common helper functions",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "2.string-helpers",
+          "name": "String Helpers",
+          "description": "Implement string manipulation utilities",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "3.number-helpers",
+          "name": "Number Helpers",
+          "description": "Implement numeric utility functions",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "4.object-helpers",
+          "name": "Object Helpers",
+          "description": "Work with object manipulation utilities",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "5.type-checkers",
+          "name": "Type Checkers",
+          "description": "Implement type validation functions",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "11.common-patterns",
+      "name": "Common Patterns",
+      "description": "Recurring problem-solving patterns and techniques",
+      "exercises": [
+        {
+          "id": "1.sliding-window",
+          "name": "Sliding Window Pattern",
+          "description": "Master the sliding window problem-solving approach",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "12.searching-algos",
+      "name": "Searching Algorithms",
+      "description": "Learn various search techniques and algorithms",
+      "exercises": [
+        {
+          "id": "1.binary-search",
+          "name": "Binary Search",
+          "description": "Implement and use binary search efficiently",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "13.recursion",
+      "name": "Recursion",
+      "description": "Master recursive problem-solving approaches",
+      "exercises": [
+        {
+          "id": "1.basic-recursion",
+          "name": "Basic Recursion",
+          "description": "Learn recursion fundamentals and base cases",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "14.sorting-algos",
+      "name": "Sorting Algorithms",
+      "description": "Understand and implement various sorting methods",
+      "exercises": [
+        {
+          "id": "1.bubble-sort",
+          "name": "Bubble Sort",
+          "description": "Implement and understand bubble sort algorithm",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "15.data-structures",
+      "name": "Data Structures",
+      "description": "Implementation and use of advanced data structures",
+      "exercises": [
+        {
+          "id": "1.stacks-queues",
+          "name": "Stacks and Queues",
+          "description": "Build and use stack and queue data structures",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "16.hackerrank",
+      "name": "HackerRank Challenges",
+      "description": "Solutions to HackerRank coding challenges",
+      "exercises": [
+        {
+          "id": "1.warm-up",
+          "name": "Warm Up Challenge",
+          "description": "Start with introductory HackerRank problems",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "17.leetcode",
+      "name": "LeetCode Problems",
+      "description": "Solutions to LeetCode coding challenges",
+      "exercises": [
+        {
+          "id": "1.easy-problems",
+          "name": "Easy Problems",
+          "description": "Start with easy LeetCode problems",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "2.medium-problems",
+          "name": "Medium Problems",
+          "description": "Solve medium difficulty LeetCode problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3.hard-problems",
+          "name": "Hard Problems",
+          "description": "Tackle hard difficulty LeetCode problems",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        },
+        {
+          "id": "4.array-problems",
+          "name": "Array Problems",
+          "description": "LeetCode array manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "5.string-problems",
+          "name": "String Problems",
+          "description": "LeetCode string manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "6.tree-problems",
+          "name": "Tree Problems",
+          "description": "LeetCode tree traversal and manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
     }
   ]
 }
