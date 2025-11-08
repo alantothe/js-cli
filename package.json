@@ -1,0 +1,23 @@
+{
+  "name": "javascript-learning-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI for learning JavaScript fundamentals with Jest-based testing",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "jest --config config/jest.config.js",
+    "test:watch": "jest --config config/jest.config.js --watch"
+  },
+  "keywords": [
+    "learning",
+    "javascript",
+    "exercises",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "inquirer": "^8.2.5"
+  }
+}

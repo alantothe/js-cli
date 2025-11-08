@@ -1,0 +1,193 @@
+{
+  "topics": [
+    {
+      "id": "1.arr-methods",
+      "name": "Array Methods",
+      "description": "Learn essential array methods for functional programming",
+      "exercises": [
+        {
+          "id": "1.map",
+          "name": "Map",
+          "description": "Transform each element in an array",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "2.filter",
+          "name": "Filter",
+          "description": "Select elements matching a condition",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "3.reduce",
+          "name": "Reduce",
+          "description": "Accumulate array values into a single result",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "4.find",
+          "name": "Find",
+          "description": "Locate the first matching element",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "5.slice",
+          "name": "Slice",
+          "description": "Extract a portion of an array",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "6.splice",
+          "name": "Splice",
+          "description": "Modify arrays by removing or inserting elements",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "7.spread",
+          "name": "Spread Operator",
+          "description": "Unpack array elements",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "8.forEach",
+          "name": "ForEach",
+          "description": "Execute a function for each array element",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "2.loops",
+      "name": "Loops",
+      "description": "Master different loop constructs",
+      "exercises": [
+        {
+          "id": "1.for",
+          "name": "For Loop",
+          "description": "Classic for loop iteration",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "2.while",
+          "name": "While Loop",
+          "description": "Condition-based iteration",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "3.for-of",
+          "name": "For...Of Loop",
+          "description": "Modern iteration over iterables",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "3.hash-maps",
+      "name": "Hash Maps",
+      "description": "Work with objects, Maps, and Sets",
+      "exercises": [
+        {
+          "id": "1.plain",
+          "name": "Plain Objects",
+          "description": "Use objects as simple hash maps",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "2.map",
+          "name": "Map",
+          "description": "ES6 Map data structure",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3.set",
+          "name": "Set",
+          "description": "ES6 Set for unique values",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "4.math.random",
+      "name": "Math & Random",
+      "description": "Math operations and random numbers",
+      "exercises": [
+        {
+          "id": "1.math-random",
+          "name": "Math & Random",
+          "description": "Generate random numbers and perform math operations",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "5.str-methods",
+      "name": "String Methods",
+      "description": "Manipulate and analyze strings",
+      "exercises": [
+        {
+          "id": "1.string",
+          "name": "String Methods",
+          "description": "Common string operations",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "6.conditional",
+      "name": "Conditionals",
+      "description": "Control flow with if/else and switch",
+      "exercises": [
+        {
+          "id": "1.conditional",
+          "name": "If/Else & Switch",
+          "description": "Branching and decision making",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "7.functions",
+      "name": "Functions",
+      "description": "Function declarations, expressions, and higher-order functions",
+      "exercises": [
+        {
+          "id": "1.functions",
+          "name": "Functions & Higher-Order",
+          "description": "Functions and functional programming",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "linked-list",
+      "name": "Linked Lists",
+      "description": "Implement and use linked list data structures",
+      "exercises": [
+        {
+          "id": "1.linked-list",
+          "name": "Singly Linked List",
+          "description": "Build and manipulate linked list nodes",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        }
+      ]
+    }
+  ]
+}
