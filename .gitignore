@@ -2,4 +2,20 @@ node_modules/
 *.log
 .DS_Store
 .env
-.exercisesBackup/.exercisesBackup/
+.exercisesBackup/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Coverage
+coverage/

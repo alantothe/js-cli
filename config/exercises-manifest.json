@@ -1,61 +1,61 @@
 {
   "topics": [
     {
-      "id": "1.arr-methods",
+      "id": "1-array-methods",
       "name": "Array Methods",
       "description": "Learn essential array methods for functional programming",
       "exercises": [
         {
-          "id": "1.map",
+          "id": "1-map",
           "name": "Map",
           "description": "Transform each element in an array",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "2.filter",
+          "id": "2-filter",
           "name": "Filter",
           "description": "Select elements matching a condition",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "3.reduce",
+          "id": "3-reduce",
           "name": "Reduce",
           "description": "Accumulate array values into a single result",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "4.find",
+          "id": "4-find",
           "name": "Find",
           "description": "Locate the first matching element",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "5.slice",
+          "id": "5-slice",
           "name": "Slice",
           "description": "Extract a portion of an array",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "6.splice",
+          "id": "6-splice",
           "name": "Splice",
           "description": "Modify arrays by removing or inserting elements",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "7.spread",
+          "id": "7-spread",
           "name": "Spread Operator",
           "description": "Unpack array elements",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "8.forEach",
+          "id": "8-forEach",
           "name": "ForEach",
           "description": "Execute a function for each array element",
           "difficulty": "Easy",
@@ -64,26 +64,26 @@
       ]
     },
     {
-      "id": "2.loops",
+      "id": "2-loops",
       "name": "Loops",
       "description": "Master different loop constructs",
       "exercises": [
         {
-          "id": "1.for",
+          "id": "1-for-loop",
           "name": "For Loop",
           "description": "Classic for loop iteration",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "2.while",
+          "id": "2-while-loop",
           "name": "While Loop",
           "description": "Condition-based iteration",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "3.for-of",
+          "id": "3-for-of-loop",
           "name": "For...Of Loop",
           "description": "Modern iteration over iterables",
           "difficulty": "Easy",
@@ -92,26 +92,26 @@
       ]
     },
     {
-      "id": "3.hash-maps",
+      "id": "3-hash-maps",
       "name": "Hash Maps",
       "description": "Work with objects, Maps, and Sets",
       "exercises": [
         {
-          "id": "1.plain",
+          "id": "1-plain-objects",
           "name": "Plain Objects",
           "description": "Use objects as simple hash maps",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "2.map",
+          "id": "2-map",
           "name": "Map",
           "description": "ES6 Map data structure",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "3.set",
+          "id": "3-set",
           "name": "Set",
           "description": "ES6 Set for unique values",
           "difficulty": "Medium",
@@ -120,12 +120,12 @@
       ]
     },
     {
-      "id": "4.math.random",
+      "id": "4-math-random",
       "name": "Math & Random",
       "description": "Math operations and random numbers",
       "exercises": [
         {
-          "id": "1.math-random",
+          "id": "1-math-random",
           "name": "Math & Random",
           "description": "Generate random numbers and perform math operations",
           "difficulty": "Easy",
@@ -134,12 +134,12 @@
       ]
     },
     {
-      "id": "5.str-methods",
+      "id": "5-string-methods",
       "name": "String Methods",
       "description": "Manipulate and analyze strings",
       "exercises": [
         {
-          "id": "1.string",
+          "id": "1-string-methods",
           "name": "String Methods",
           "description": "Common string operations",
           "difficulty": "Easy",
@@ -148,12 +148,12 @@
       ]
     },
     {
-      "id": "6.conditional",
+      "id": "6-conditionals",
       "name": "Conditionals",
       "description": "Control flow with if/else and switch",
       "exercises": [
         {
-          "id": "1.conditional",
+          "id": "1-conditionals",
           "name": "If/Else & Switch",
           "description": "Branching and decision making",
           "difficulty": "Easy",
@@ -162,12 +162,12 @@
       ]
     },
     {
-      "id": "7.functions",
+      "id": "7-functions",
       "name": "Functions",
       "description": "Function declarations, expressions, and higher-order functions",
       "exercises": [
         {
-          "id": "1.functions",
+          "id": "1-functions",
           "name": "Functions & Higher-Order",
           "description": "Functions and functional programming",
           "difficulty": "Medium",
@@ -176,12 +176,12 @@
       ]
     },
     {
-      "id": "linked-list",
+      "id": "8-linked-lists",
       "name": "Linked Lists",
       "description": "Implement and use linked list data structures",
       "exercises": [
         {
-          "id": "1.linked-list",
+          "id": "1-linked-lists",
           "name": "Singly Linked List",
           "description": "Build and manipulate linked list nodes",
           "difficulty": "Hard",
@@ -190,26 +190,26 @@
       ]
     },
     {
-      "id": "9.algo-techniques",
+      "id": "9-algo-techniques",
       "name": "Common Algorithm Techniques",
       "description": "Core algorithmic approaches and methodologies",
       "exercises": [
         {
-          "id": "1.two-pointer",
+          "id": "1-two-pointer",
           "name": "Two Pointer Technique",
           "description": "Solve problems using two pointer approach",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "3.dynamic-programming",
+          "id": "3-dynamic-programming",
           "name": "Dynamic Programming",
           "description": "Solve optimization problems using memoization and tabulation",
           "difficulty": "Hard",
           "status": "Not Started"
         },
         {
-          "id": "5.backtracking",
+          "id": "5-backtracking",
           "name": "Backtracking",
           "description": "Generate permutations and solve constraint satisfaction problems",
           "difficulty": "Hard",
@@ -218,40 +218,40 @@
       ]
     },
     {
-      "id": "10.helper-methods",
+      "id": "10-helper-methods",
       "name": "Helper Methods",
       "description": "Utility functions and helper implementations",
       "exercises": [
         {
-          "id": "1.utility-functions",
+          "id": "1-utility-functions",
           "name": "Utility Functions",
           "description": "Build common helper functions",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "2.string-helpers",
+          "id": "2-string-helpers",
           "name": "String Helpers",
           "description": "Implement string manipulation utilities",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "3.number-helpers",
+          "id": "3-number-helpers",
           "name": "Number Helpers",
           "description": "Implement numeric utility functions",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "4.object-helpers",
+          "id": "4-object-helpers",
           "name": "Object Helpers",
           "description": "Work with object manipulation utilities",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "5.type-checkers",
+          "id": "5-type-checkers",
           "name": "Type Checkers",
           "description": "Implement type validation functions",
           "difficulty": "Easy",
@@ -260,12 +260,12 @@
       ]
     },
     {
-      "id": "11.common-patterns",
+      "id": "11-common-patterns",
       "name": "Common Patterns",
       "description": "Recurring problem-solving patterns and techniques",
       "exercises": [
         {
-          "id": "1.sliding-window",
+          "id": "1-sliding-window",
           "name": "Sliding Window Pattern",
           "description": "Master the sliding window problem-solving approach",
           "difficulty": "Medium",
@@ -274,12 +274,12 @@
       ]
     },
     {
-      "id": "12.searching-algos",
+      "id": "12-searching-algos",
       "name": "Searching Algorithms",
       "description": "Learn various search techniques and algorithms",
       "exercises": [
         {
-          "id": "1.binary-search",
+          "id": "1-binary-search",
           "name": "Binary Search",
           "description": "Implement and use binary search efficiently",
           "difficulty": "Medium",
@@ -288,12 +288,12 @@
       ]
     },
     {
-      "id": "13.recursion",
+      "id": "13-recursion",
       "name": "Recursion",
       "description": "Master recursive problem-solving approaches",
       "exercises": [
         {
-          "id": "1.basic-recursion",
+          "id": "1-basic-recursion",
           "name": "Basic Recursion",
           "description": "Learn recursion fundamentals and base cases",
           "difficulty": "Medium",
@@ -302,12 +302,12 @@
       ]
     },
     {
-      "id": "14.sorting-algos",
+      "id": "14-sorting-algos",
       "name": "Sorting Algorithms",
       "description": "Understand and implement various sorting methods",
       "exercises": [
         {
-          "id": "1.bubble-sort",
+          "id": "1-bubble-sort",
           "name": "Bubble Sort",
           "description": "Implement and understand bubble sort algorithm",
           "difficulty": "Easy",
@@ -316,12 +316,12 @@
       ]
     },
     {
-      "id": "15.data-structures",
+      "id": "15-data-structures",
       "name": "Data Structures",
       "description": "Implementation and use of advanced data structures",
       "exercises": [
         {
-          "id": "1.stacks-queues",
+          "id": "1-stacks-queues",
           "name": "Stacks and Queues",
           "description": "Build and use stack and queue data structures",
           "difficulty": "Medium",
@@ -330,12 +330,12 @@
       ]
     },
     {
-      "id": "16.hackerrank",
+      "id": "16-hackerrank",
       "name": "HackerRank Challenges",
       "description": "Solutions to HackerRank coding challenges",
       "exercises": [
         {
-          "id": "1.warm-up",
+          "id": "1-warm-up",
           "name": "Warm Up Challenge",
           "description": "Start with introductory HackerRank problems",
           "difficulty": "Easy",
@@ -344,49 +344,301 @@
       ]
     },
     {
-      "id": "17.leetcode",
+      "id": "17-leetcode",
       "name": "LeetCode Problems",
       "description": "Solutions to LeetCode coding challenges",
       "exercises": [
         {
-          "id": "1.easy-problems",
+          "id": "1-easy-problems",
           "name": "Easy Problems",
           "description": "Start with easy LeetCode problems",
           "difficulty": "Easy",
           "status": "Not Started"
         },
         {
-          "id": "2.medium-problems",
+          "id": "2-medium-problems",
           "name": "Medium Problems",
           "description": "Solve medium difficulty LeetCode problems",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "3.hard-problems",
+          "id": "3-hard-problems",
           "name": "Hard Problems",
           "description": "Tackle hard difficulty LeetCode problems",
           "difficulty": "Hard",
           "status": "Not Started"
         },
         {
-          "id": "4.array-problems",
+          "id": "4-array-problems",
           "name": "Array Problems",
           "description": "LeetCode array manipulation problems",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "5.string-problems",
+          "id": "5-string-problems",
           "name": "String Problems",
           "description": "LeetCode string manipulation problems",
           "difficulty": "Medium",
           "status": "Not Started"
         },
         {
-          "id": "6.tree-problems",
+          "id": "6-tree-problems",
           "name": "Tree Problems",
           "description": "LeetCode tree traversal and manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "18-trees",
+      "name": "Trees",
+      "description": "Tree data structures and algorithms",
+      "exercises": [
+        {
+          "id": "1-bst-fundamentals",
+          "name": "BST Fundamentals",
+          "description": "Build and manipulate binary search trees",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-tree-traversals",
+          "name": "Tree Traversals",
+          "description": "Implement in-order, pre-order, and post-order traversals",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-tree-problems",
+          "name": "Tree Problems",
+          "description": "Solve common tree-based interview problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "19-graphs",
+      "name": "Graphs",
+      "description": "Graph data structures and traversal algorithms",
+      "exercises": [
+        {
+          "id": "1-graph-fundamentals",
+          "name": "Graph Fundamentals",
+          "description": "Build and traverse graph data structures",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-graph-problems",
+          "name": "Graph Problems",
+          "description": "Solve common graph-based problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "20-sorting-algorithms",
+      "name": "Sorting Algorithms (Advanced)",
+      "description": "Advanced sorting algorithm implementations",
+      "exercises": [
+        {
+          "id": "1-merge-sort",
+          "name": "Merge Sort",
+          "description": "Implement divide-and-conquer merge sort",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-quick-sort",
+          "name": "Quick Sort",
+          "description": "Implement partition-based quick sort",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-insertion-sort",
+          "name": "Insertion Sort",
+          "description": "Implement insertion sort algorithm",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "21-linked-list-operations",
+      "name": "Linked List Operations",
+      "description": "Advanced linked list manipulation techniques",
+      "exercises": [
+        {
+          "id": "1-reverse-linked-list",
+          "name": "Reverse Linked List",
+          "description": "Reverse a singly linked list",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-cycle-detection",
+          "name": "Cycle Detection",
+          "description": "Detect cycles in a linked list",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-merge-sorted-lists",
+          "name": "Merge Sorted Lists",
+          "description": "Merge two sorted linked lists",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "22-heaps",
+      "name": "Heaps",
+      "description": "Heap data structures and priority queue problems",
+      "exercises": [
+        {
+          "id": "1-min-heap",
+          "name": "Min Heap",
+          "description": "Implement a min heap data structure",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-top-k-problems",
+          "name": "Top K Problems",
+          "description": "Solve top-K element problems using heaps",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "23-dynamic-programming",
+      "name": "Dynamic Programming",
+      "description": "Classic and grid-based dynamic programming problems",
+      "exercises": [
+        {
+          "id": "1-classic-dp",
+          "name": "Classic DP",
+          "description": "Solve classic dynamic programming problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-grid-dp",
+          "name": "Grid DP",
+          "description": "Solve grid-based dynamic programming problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "24-two-pointer-sliding-window",
+      "name": "Two Pointer & Sliding Window",
+      "description": "Advanced two pointer and sliding window patterns",
+      "exercises": [
+        {
+          "id": "1-two-pointer-patterns",
+          "name": "Two Pointer Patterns",
+          "description": "Solve problems using two pointer techniques",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-sliding-window-patterns",
+          "name": "Sliding Window Patterns",
+          "description": "Solve problems using sliding window techniques",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "25-greedy-algorithms",
+      "name": "Greedy Algorithms",
+      "description": "Solve optimization problems with greedy approaches",
+      "exercises": [
+        {
+          "id": "1-greedy-problems",
+          "name": "Greedy Problems",
+          "description": "Solve problems using greedy algorithm strategies",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "26-tries",
+      "name": "Tries",
+      "description": "Trie data structure implementation and problems",
+      "exercises": [
+        {
+          "id": "1-trie-implementation",
+          "name": "Trie Implementation",
+          "description": "Build and use a trie data structure",
+          "difficulty": "Medium",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": "27-matrix-problems",
+      "name": "Matrix Problems",
+      "description": "2D array and matrix manipulation problems",
+      "exercises": [
+        {
+          "id": "1-matrix-operations",
+          "name": "Matrix Operations",
+          "description": "Solve matrix traversal and manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "28-bit-manipulation",
+      "name": "Bit Manipulation",
+      "description": "Bitwise operations and bit manipulation techniques",
+      "exercises": [
+        {
+          "id": "1-bit-operations",
+          "name": "Bit Operations",
+          "description": "Solve problems using bitwise operators",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "29-monotonic-stack",
+      "name": "Monotonic Stack",
+      "description": "Monotonic stack pattern for array problems",
+      "exercises": [
+        {
+          "id": "1-monotonic-stack-problems",
+          "name": "Monotonic Stack Problems",
+          "description": "Solve problems using monotonic stack pattern",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "30-hash-map-patterns",
+      "name": "Hash Map Patterns",
+      "description": "Hash map patterns for interview problems",
+      "exercises": [
+        {
+          "id": "1-hash-map-interview-problems",
+          "name": "Hash Map Interview Problems",
+          "description": "Solve interview problems using hash map patterns",
           "difficulty": "Medium",
           "status": "Not Started"
         }
