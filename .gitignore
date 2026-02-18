@@ -19,3 +19,6 @@ Thumbs.db
 
 # Coverage
 coverage/
+
+# User profile
+config/user-profile.json

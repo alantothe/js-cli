@@ -5,6 +5,9 @@ const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
 const exercisesData = require('../config/exercises-manifest.json');
+const { ensureProfile, loadProfile } = require('./profile');
+const { getDailyQuote } = require('./quotes');
+const { showDashboard } = require('./dashboard');
 
 // Color codes for terminal output
 const colors = {
@@ -42,7 +45,9 @@ function getStatusBadge(status) {
 
 function displayHeader() {
   console.clear();
-  console.log(colorize('\n🚀 JavaScript Learning CLI\n', colors.cyan + colors.bright));
+  const name = global.__profile ? global.__profile.name : '';
+  const greeting = name ? ` | Hello, ${name}!` : '';
+  console.log(colorize(`\n\uD83D\uDE80 JavaScript Learning CLI${greeting}\n`, colors.cyan + colors.bright));
 }
 
 function waitForEnter(message = '') {
@@ -62,6 +67,7 @@ async function selectTopic() {
     short: topic.name,
   }));
 
+  topicChoices.unshift({ name: '\uD83D\uDCCA Dashboard', value: 'dashboard', short: 'Dashboard' });
   topicChoices.push(new inquirer.Separator());
   topicChoices.push({ name: 'Exit', value: 'exit', short: 'Exit' });
 
@@ -75,8 +81,17 @@ async function selectTopic() {
     },
   ]);
 
+  if (topicId === 'dashboard') {
+    const quote = await getDailyQuote();
+    const profile = global.__profile || loadProfile();
+    await showDashboard(profile, exercisesData, quote);
+    await selectTopic();
+    return;
+  }
+
   if (topicId === 'exit') {
-    console.log(colorize('\n👋 Thanks for learning! Goodbye.\n', colors.cyan));
+    const name = global.__profile ? global.__profile.name : 'learner';
+    console.log(colorize(`\n\uD83D\uDC4B Goodbye, ${name}!\n`, colors.cyan));
     process.exit(0);
   }
 
@@ -109,7 +124,8 @@ async function selectExercise(topic) {
   ]);
 
   if (exerciseId === 'exit') {
-    console.log(colorize('\n👋 Thanks for learning! Goodbye.\n', colors.cyan));
+    const name = global.__profile ? global.__profile.name : 'learner';
+    console.log(colorize(`\n\uD83D\uDC4B Goodbye, ${name}!\n`, colors.cyan));
     process.exit(0);
   }
 
@@ -177,9 +193,11 @@ async function exerciseMenu(topic, exercise) {
     case 'topics':
       await selectTopic();
       return;
-    case 'exit':
-      console.log(colorize('\n👋 Thanks for learning! Goodbye.\n', colors.cyan));
+    case 'exit': {
+      const name = global.__profile ? global.__profile.name : 'learner';
+      console.log(colorize(`\n\uD83D\uDC4B Goodbye, ${name}!\n`, colors.cyan));
       process.exit(0);
+    }
   }
 
   await exerciseMenu(topic, exercise);
@@ -266,6 +284,8 @@ async function resetExercise(topic, exercise) {
 
 async function main() {
   try {
+    const profile = await ensureProfile(colors, colorize);
+    global.__profile = profile;
     await selectTopic();
   } catch (error) {
     console.error(colorize(`Error: ${error.message}`, colors.red));
