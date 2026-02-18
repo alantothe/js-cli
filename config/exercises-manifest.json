@@ -1,9 +1,156 @@
 {
   "topics": [
     {
+      "id": "12-searching-algos",
+      "name": "01. Binary Search Fundamentals",
+      "description": "Interview core: binary search templates, boundaries, and invariants",
+      "exercises": [
+        {
+          "id": "1-binary-search",
+          "name": "Binary Search",
+          "description": "Implement and use binary search efficiently",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "33-binary-search-advanced",
+      "name": "02. Binary Search on Answer",
+      "description": "Optimize monotonic decision problems with answer-space binary search",
+      "exercises": [
+        {
+          "id": "1-binary-search-on-answer",
+          "name": "Binary Search on Answer",
+          "description": "Use feasibility checks to binary search minimum/maximum answers",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "14-sorting-algos",
+      "name": "03. Sorting Basics",
+      "description": "Interview baseline: understand sorting behavior and tradeoffs",
+      "exercises": [
+        {
+          "id": "1-bubble-sort",
+          "name": "Bubble Sort",
+          "description": "Implement and understand bubble sort algorithm",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "24-two-pointer-sliding-window",
+      "name": "04. Two Pointers & Sliding Window",
+      "description": "High-frequency interview patterns for strings and arrays",
+      "exercises": [
+        {
+          "id": "1-two-pointer-patterns",
+          "name": "Two Pointer Patterns",
+          "description": "Solve problems using two pointer techniques",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-sliding-window-patterns",
+          "name": "Sliding Window Patterns",
+          "description": "Solve problems using sliding window techniques",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "11-common-patterns",
+      "name": "05. Pattern Recognition",
+      "description": "Core reusable patterns that unlock faster interview solutions",
+      "exercises": [
+        {
+          "id": "1-sliding-window",
+          "name": "Sliding Window Pattern",
+          "description": "Master the sliding window problem-solving approach",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "30-hash-map-patterns",
+      "name": "06. Arrays & Hash Map Patterns",
+      "description": "Most common interview problems using counting and lookups",
+      "exercises": [
+        {
+          "id": "1-hash-map-interview-problems",
+          "name": "Hash Map Interview Problems",
+          "description": "Solve interview problems using hash map patterns",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "32-prefix-sum",
+      "name": "07. Prefix Sum & Difference Arrays",
+      "description": "Range query and subarray sum techniques for O(n) solutions",
+      "exercises": [
+        {
+          "id": "1-prefix-sum-patterns",
+          "name": "Prefix Sum Patterns",
+          "description": "Solve subarray and range update problems with prefix sums",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "31-intervals",
+      "name": "08. Intervals",
+      "description": "Merge, insert, and overlap patterns common in interviews",
+      "exercises": [
+        {
+          "id": "1-interval-patterns",
+          "name": "Interval Patterns",
+          "description": "Solve merge, insert, and meeting-room interval problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "3-hash-maps",
+      "name": "09. Hash Maps & Sets",
+      "description": "Data lookup primitives for O(1) average-case operations",
+      "exercises": [
+        {
+          "id": "1-plain-objects",
+          "name": "Plain Objects",
+          "description": "Use objects as simple hash maps",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-map",
+          "name": "Map",
+          "description": "ES6 Map data structure",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-set",
+          "name": "Set",
+          "description": "ES6 Set for unique values",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
       "id": "1-array-methods",
-      "name": "Array Methods",
-      "description": "Learn essential array methods for functional programming",
+      "name": "10. JS Arrays Toolkit",
+      "description": "Practical array fluency to speed up interview coding",
       "exercises": [
         {
           "id": "1-map",
@@ -64,9 +211,23 @@
       ]
     },
     {
+      "id": "5-string-methods",
+      "name": "11. String Toolkit",
+      "description": "String operations that appear frequently in interviews",
+      "exercises": [
+        {
+          "id": "1-string-methods",
+          "name": "String Methods",
+          "description": "Common string operations",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
       "id": "2-loops",
-      "name": "Loops",
-      "description": "Master different loop constructs",
+      "name": "12. Looping Patterns",
+      "description": "Iteration control patterns used across DSA solutions",
       "exercises": [
         {
           "id": "1-for-loop",
@@ -92,65 +253,9 @@
       ]
     },
     {
-      "id": "3-hash-maps",
-      "name": "Hash Maps",
-      "description": "Work with objects, Maps, and Sets",
-      "exercises": [
-        {
-          "id": "1-plain-objects",
-          "name": "Plain Objects",
-          "description": "Use objects as simple hash maps",
-          "difficulty": "Easy",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-map",
-          "name": "Map",
-          "description": "ES6 Map data structure",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "3-set",
-          "name": "Set",
-          "description": "ES6 Set for unique values",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "4-math-random",
-      "name": "Math & Random",
-      "description": "Math operations and random numbers",
-      "exercises": [
-        {
-          "id": "1-math-random",
-          "name": "Math & Random",
-          "description": "Generate random numbers and perform math operations",
-          "difficulty": "Easy",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "5-string-methods",
-      "name": "String Methods",
-      "description": "Manipulate and analyze strings",
-      "exercises": [
-        {
-          "id": "1-string-methods",
-          "name": "String Methods",
-          "description": "Common string operations",
-          "difficulty": "Easy",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
       "id": "6-conditionals",
-      "name": "Conditionals",
-      "description": "Control flow with if/else and switch",
+      "name": "13. Control Flow",
+      "description": "Decision logic fundamentals for robust implementations",
       "exercises": [
         {
           "id": "1-conditionals",
@@ -163,8 +268,8 @@
     },
     {
       "id": "7-functions",
-      "name": "Functions",
-      "description": "Function declarations, expressions, and higher-order functions",
+      "name": "14. Function Design",
+      "description": "Reusable function patterns for clean problem decomposition",
       "exercises": [
         {
           "id": "1-functions",
@@ -176,9 +281,37 @@
       ]
     },
     {
+      "id": "13-recursion",
+      "name": "15. Recursion Essentials",
+      "description": "Base-case thinking used in trees, DFS, and divide-and-conquer",
+      "exercises": [
+        {
+          "id": "1-basic-recursion",
+          "name": "Basic Recursion",
+          "description": "Learn recursion fundamentals and base cases",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "15-data-structures",
+      "name": "16. Stacks & Queues",
+      "description": "Interview staples for traversal, parsing, and BFS workflows",
+      "exercises": [
+        {
+          "id": "1-stacks-queues",
+          "name": "Stacks and Queues",
+          "description": "Build and use stack and queue data structures",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
       "id": "8-linked-lists",
-      "name": "Linked Lists",
-      "description": "Implement and use linked list data structures",
+      "name": "17. Linked Lists Foundations",
+      "description": "Pointer manipulation fundamentals for node-based structures",
       "exercises": [
         {
           "id": "1-linked-lists",
@@ -190,9 +323,310 @@
       ]
     },
     {
+      "id": "21-linked-list-operations",
+      "name": "18. Linked List Interview Patterns",
+      "description": "Classic linked list questions: reverse, cycle detection, merge",
+      "exercises": [
+        {
+          "id": "1-reverse-linked-list",
+          "name": "Reverse Linked List",
+          "description": "Reverse a singly linked list",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-cycle-detection",
+          "name": "Cycle Detection",
+          "description": "Detect cycles in a linked list",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-merge-sorted-lists",
+          "name": "Merge Sorted Lists",
+          "description": "Merge two sorted linked lists",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "18-trees",
+      "name": "19. Trees & BSTs",
+      "description": "Traversal and structure questions for recursive reasoning",
+      "exercises": [
+        {
+          "id": "1-bst-fundamentals",
+          "name": "BST Fundamentals",
+          "description": "Build and manipulate binary search trees",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-tree-traversals",
+          "name": "Tree Traversals",
+          "description": "Implement in-order, pre-order, and post-order traversals",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-tree-problems",
+          "name": "Tree Problems",
+          "description": "Solve common tree-based interview problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "38-advanced-tree-patterns",
+      "name": "20. Advanced Tree Patterns",
+      "description": "LCA, tree serialization, and path-sum style interview patterns",
+      "exercises": [
+        {
+          "id": "1-tree-interview-patterns",
+          "name": "Tree Interview Patterns",
+          "description": "Master recursive and iterative patterns on binary trees",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "19-graphs",
+      "name": "21. Graphs (BFS/DFS)",
+      "description": "Interview graph traversal and connectivity problem solving",
+      "exercises": [
+        {
+          "id": "1-graph-fundamentals",
+          "name": "Graph Fundamentals",
+          "description": "Build and traverse graph data structures",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-graph-problems",
+          "name": "Graph Problems",
+          "description": "Solve common graph-based problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "35-topological-sort",
+      "name": "22. Topological Sort",
+      "description": "Dependency ordering in DAGs using Kahn and DFS approaches",
+      "exercises": [
+        {
+          "id": "1-course-schedule-patterns",
+          "name": "Course Schedule Patterns",
+          "description": "Detect cycles and produce valid ordering in dependency graphs",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "34-union-find",
+      "name": "23. Union-Find (DSU)",
+      "description": "Connectivity tracking with path compression and union by rank",
+      "exercises": [
+        {
+          "id": "1-disjoint-set-union",
+          "name": "Disjoint Set Union",
+          "description": "Implement DSU and solve connected component problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "41-graph-bfs-patterns",
+      "name": "24. Graph BFS Patterns",
+      "description": "Multi-source BFS, grids, and bipartite checking patterns",
+      "exercises": [
+        {
+          "id": "1-grid-and-bipartite",
+          "name": "Grid & Bipartite BFS",
+          "description": "Solve shortest-path-in-grid and graph coloring problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "37-shortest-path",
+      "name": "25. Shortest Path Algorithms",
+      "description": "Dijkstra, BFS shortest paths, and weighted graph interview problems",
+      "exercises": [
+        {
+          "id": "1-dijkstra-and-bfs",
+          "name": "Dijkstra & BFS Paths",
+          "description": "Find shortest paths in weighted and unweighted graphs",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "22-heaps",
+      "name": "26. Heaps & Top-K",
+      "description": "Priority queue patterns for streaming and top-k problems",
+      "exercises": [
+        {
+          "id": "1-min-heap",
+          "name": "Min Heap",
+          "description": "Implement a min heap data structure",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-top-k-problems",
+          "name": "Top K Problems",
+          "description": "Solve top-K element problems using heaps",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "29-monotonic-stack",
+      "name": "27. Monotonic Stack Pattern",
+      "description": "Advanced stack pattern for next-greater and range problems",
+      "exercises": [
+        {
+          "id": "1-monotonic-stack-problems",
+          "name": "Monotonic Stack Problems",
+          "description": "Solve problems using monotonic stack pattern",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "27-matrix-problems",
+      "name": "28. Matrix & Grid Problems",
+      "description": "2D traversal patterns used heavily in interviews",
+      "exercises": [
+        {
+          "id": "1-matrix-operations",
+          "name": "Matrix Operations",
+          "description": "Solve matrix traversal and manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "23-dynamic-programming",
+      "name": "29. Dynamic Programming Track",
+      "description": "Classic and grid DP with state definition and transitions",
+      "exercises": [
+        {
+          "id": "1-classic-dp",
+          "name": "Classic DP",
+          "description": "Solve classic dynamic programming problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-grid-dp",
+          "name": "Grid DP",
+          "description": "Solve grid-based dynamic programming problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "40-advanced-dp-patterns",
+      "name": "30. Advanced DP Patterns",
+      "description": "Knapsack, LIS, and string DP patterns seen in interviews",
+      "exercises": [
+        {
+          "id": "1-knapsack-lis-string-dp",
+          "name": "Knapsack, LIS, String DP",
+          "description": "Build reliable state transitions for hard DP problems",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "25-greedy-algorithms",
+      "name": "31. Greedy Strategy",
+      "description": "Optimization with local choices and proof intuition",
+      "exercises": [
+        {
+          "id": "1-greedy-problems",
+          "name": "Greedy Problems",
+          "description": "Solve problems using greedy algorithm strategies",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "36-backtracking-patterns",
+      "name": "32. Backtracking Patterns",
+      "description": "Systematic search for combinations, permutations, and constraint problems",
+      "exercises": [
+        {
+          "id": "1-backtracking-core",
+          "name": "Backtracking Core",
+          "description": "Solve subsets, permutations, and combination sum patterns",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "26-tries",
+      "name": "33. Trie Data Structure",
+      "description": "Prefix trees for dictionary and search-heavy problems",
+      "exercises": [
+        {
+          "id": "1-trie-implementation",
+          "name": "Trie Implementation",
+          "description": "Build and use a trie data structure",
+          "difficulty": "Medium",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": "28-bit-manipulation",
+      "name": "34. Bit Manipulation",
+      "description": "Bitwise techniques for constraints-focused interview tasks",
+      "exercises": [
+        {
+          "id": "1-bit-operations",
+          "name": "Bit Operations",
+          "description": "Solve problems using bitwise operators",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "39-design-data-structures",
+      "name": "35. Design Data Structures",
+      "description": "Implement common interview design questions from scratch",
+      "exercises": [
+        {
+          "id": "1-lru-minstack-timemap",
+          "name": "LRU, MinStack, TimeMap",
+          "description": "Practice core stateful design data structure problems",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
       "id": "9-algo-techniques",
-      "name": "Common Algorithm Techniques",
-      "description": "Core algorithmic approaches and methodologies",
+      "name": "36. Advanced Algorithm Techniques",
+      "description": "Two pointers, DP, and backtracking in one consolidated module",
       "exercises": [
         {
           "id": "1-two-pointer",
@@ -218,9 +652,100 @@
       ]
     },
     {
+      "id": "20-sorting-algorithms",
+      "name": "37. Sorting Algorithms (Advanced)",
+      "description": "Merge, quick, and insertion sort with interview tradeoffs",
+      "exercises": [
+        {
+          "id": "1-merge-sort",
+          "name": "Merge Sort",
+          "description": "Implement divide-and-conquer merge sort",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-quick-sort",
+          "name": "Quick Sort",
+          "description": "Implement partition-based quick sort",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-insertion-sort",
+          "name": "Insertion Sort",
+          "description": "Implement insertion sort algorithm",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "17-leetcode",
+      "name": "38. LeetCode Interview Sets",
+      "description": "Curated practice sets grouped by structure and difficulty",
+      "exercises": [
+        {
+          "id": "1-easy-problems",
+          "name": "Easy Problems",
+          "description": "Start with easy LeetCode problems",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        },
+        {
+          "id": "4-array-problems",
+          "name": "Array Problems",
+          "description": "LeetCode array manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "5-string-problems",
+          "name": "String Problems",
+          "description": "LeetCode string manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "6-tree-problems",
+          "name": "Tree Problems",
+          "description": "LeetCode tree traversal and manipulation problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "2-medium-problems",
+          "name": "Medium Problems",
+          "description": "Solve medium difficulty LeetCode problems",
+          "difficulty": "Medium",
+          "status": "Not Started"
+        },
+        {
+          "id": "3-hard-problems",
+          "name": "Hard Problems",
+          "description": "Tackle hard difficulty LeetCode problems",
+          "difficulty": "Hard",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": "16-hackerrank",
+      "name": "39. Warm-Up Timed Practice",
+      "description": "Short-form coding drills for interview speed and accuracy",
+      "exercises": [
+        {
+          "id": "1-warm-up",
+          "name": "Warm Up Challenge",
+          "description": "Start with introductory HackerRank problems",
+          "difficulty": "Easy",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
       "id": "10-helper-methods",
-      "name": "Helper Methods",
-      "description": "Utility functions and helper implementations",
+      "name": "40. Implementation Utilities",
+      "description": "Utility helpers that reduce noise in coding interview solutions",
       "exercises": [
         {
           "id": "1-utility-functions",
@@ -260,386 +785,15 @@
       ]
     },
     {
-      "id": "11-common-patterns",
-      "name": "Common Patterns",
-      "description": "Recurring problem-solving patterns and techniques",
+      "id": "4-math-random",
+      "name": "41. Math Utilities",
+      "description": "Math helpers used in edge cases and numeric interview questions",
       "exercises": [
         {
-          "id": "1-sliding-window",
-          "name": "Sliding Window Pattern",
-          "description": "Master the sliding window problem-solving approach",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "12-searching-algos",
-      "name": "Searching Algorithms",
-      "description": "Learn various search techniques and algorithms",
-      "exercises": [
-        {
-          "id": "1-binary-search",
-          "name": "Binary Search",
-          "description": "Implement and use binary search efficiently",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "13-recursion",
-      "name": "Recursion",
-      "description": "Master recursive problem-solving approaches",
-      "exercises": [
-        {
-          "id": "1-basic-recursion",
-          "name": "Basic Recursion",
-          "description": "Learn recursion fundamentals and base cases",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "14-sorting-algos",
-      "name": "Sorting Algorithms",
-      "description": "Understand and implement various sorting methods",
-      "exercises": [
-        {
-          "id": "1-bubble-sort",
-          "name": "Bubble Sort",
-          "description": "Implement and understand bubble sort algorithm",
+          "id": "1-math-random",
+          "name": "Math & Random",
+          "description": "Generate random numbers and perform math operations",
           "difficulty": "Easy",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "15-data-structures",
-      "name": "Data Structures",
-      "description": "Implementation and use of advanced data structures",
-      "exercises": [
-        {
-          "id": "1-stacks-queues",
-          "name": "Stacks and Queues",
-          "description": "Build and use stack and queue data structures",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "16-hackerrank",
-      "name": "HackerRank Challenges",
-      "description": "Solutions to HackerRank coding challenges",
-      "exercises": [
-        {
-          "id": "1-warm-up",
-          "name": "Warm Up Challenge",
-          "description": "Start with introductory HackerRank problems",
-          "difficulty": "Easy",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "17-leetcode",
-      "name": "LeetCode Problems",
-      "description": "Solutions to LeetCode coding challenges",
-      "exercises": [
-        {
-          "id": "1-easy-problems",
-          "name": "Easy Problems",
-          "description": "Start with easy LeetCode problems",
-          "difficulty": "Easy",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-medium-problems",
-          "name": "Medium Problems",
-          "description": "Solve medium difficulty LeetCode problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "3-hard-problems",
-          "name": "Hard Problems",
-          "description": "Tackle hard difficulty LeetCode problems",
-          "difficulty": "Hard",
-          "status": "Not Started"
-        },
-        {
-          "id": "4-array-problems",
-          "name": "Array Problems",
-          "description": "LeetCode array manipulation problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "5-string-problems",
-          "name": "String Problems",
-          "description": "LeetCode string manipulation problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "6-tree-problems",
-          "name": "Tree Problems",
-          "description": "LeetCode tree traversal and manipulation problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "18-trees",
-      "name": "Trees",
-      "description": "Tree data structures and algorithms",
-      "exercises": [
-        {
-          "id": "1-bst-fundamentals",
-          "name": "BST Fundamentals",
-          "description": "Build and manipulate binary search trees",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-tree-traversals",
-          "name": "Tree Traversals",
-          "description": "Implement in-order, pre-order, and post-order traversals",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "3-tree-problems",
-          "name": "Tree Problems",
-          "description": "Solve common tree-based interview problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "19-graphs",
-      "name": "Graphs",
-      "description": "Graph data structures and traversal algorithms",
-      "exercises": [
-        {
-          "id": "1-graph-fundamentals",
-          "name": "Graph Fundamentals",
-          "description": "Build and traverse graph data structures",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-graph-problems",
-          "name": "Graph Problems",
-          "description": "Solve common graph-based problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "20-sorting-algorithms",
-      "name": "Sorting Algorithms (Advanced)",
-      "description": "Advanced sorting algorithm implementations",
-      "exercises": [
-        {
-          "id": "1-merge-sort",
-          "name": "Merge Sort",
-          "description": "Implement divide-and-conquer merge sort",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-quick-sort",
-          "name": "Quick Sort",
-          "description": "Implement partition-based quick sort",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "3-insertion-sort",
-          "name": "Insertion Sort",
-          "description": "Implement insertion sort algorithm",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "21-linked-list-operations",
-      "name": "Linked List Operations",
-      "description": "Advanced linked list manipulation techniques",
-      "exercises": [
-        {
-          "id": "1-reverse-linked-list",
-          "name": "Reverse Linked List",
-          "description": "Reverse a singly linked list",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-cycle-detection",
-          "name": "Cycle Detection",
-          "description": "Detect cycles in a linked list",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "3-merge-sorted-lists",
-          "name": "Merge Sorted Lists",
-          "description": "Merge two sorted linked lists",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "22-heaps",
-      "name": "Heaps",
-      "description": "Heap data structures and priority queue problems",
-      "exercises": [
-        {
-          "id": "1-min-heap",
-          "name": "Min Heap",
-          "description": "Implement a min heap data structure",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-top-k-problems",
-          "name": "Top K Problems",
-          "description": "Solve top-K element problems using heaps",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "23-dynamic-programming",
-      "name": "Dynamic Programming",
-      "description": "Classic and grid-based dynamic programming problems",
-      "exercises": [
-        {
-          "id": "1-classic-dp",
-          "name": "Classic DP",
-          "description": "Solve classic dynamic programming problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-grid-dp",
-          "name": "Grid DP",
-          "description": "Solve grid-based dynamic programming problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "24-two-pointer-sliding-window",
-      "name": "Two Pointer & Sliding Window",
-      "description": "Advanced two pointer and sliding window patterns",
-      "exercises": [
-        {
-          "id": "1-two-pointer-patterns",
-          "name": "Two Pointer Patterns",
-          "description": "Solve problems using two pointer techniques",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        },
-        {
-          "id": "2-sliding-window-patterns",
-          "name": "Sliding Window Patterns",
-          "description": "Solve problems using sliding window techniques",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "25-greedy-algorithms",
-      "name": "Greedy Algorithms",
-      "description": "Solve optimization problems with greedy approaches",
-      "exercises": [
-        {
-          "id": "1-greedy-problems",
-          "name": "Greedy Problems",
-          "description": "Solve problems using greedy algorithm strategies",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "26-tries",
-      "name": "Tries",
-      "description": "Trie data structure implementation and problems",
-      "exercises": [
-        {
-          "id": "1-trie-implementation",
-          "name": "Trie Implementation",
-          "description": "Build and use a trie data structure",
-          "difficulty": "Medium",
-          "status": "Completed"
-        }
-      ]
-    },
-    {
-      "id": "27-matrix-problems",
-      "name": "Matrix Problems",
-      "description": "2D array and matrix manipulation problems",
-      "exercises": [
-        {
-          "id": "1-matrix-operations",
-          "name": "Matrix Operations",
-          "description": "Solve matrix traversal and manipulation problems",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "28-bit-manipulation",
-      "name": "Bit Manipulation",
-      "description": "Bitwise operations and bit manipulation techniques",
-      "exercises": [
-        {
-          "id": "1-bit-operations",
-          "name": "Bit Operations",
-          "description": "Solve problems using bitwise operators",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "29-monotonic-stack",
-      "name": "Monotonic Stack",
-      "description": "Monotonic stack pattern for array problems",
-      "exercises": [
-        {
-          "id": "1-monotonic-stack-problems",
-          "name": "Monotonic Stack Problems",
-          "description": "Solve problems using monotonic stack pattern",
-          "difficulty": "Medium",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": "30-hash-map-patterns",
-      "name": "Hash Map Patterns",
-      "description": "Hash map patterns for interview problems",
-      "exercises": [
-        {
-          "id": "1-hash-map-interview-problems",
-          "name": "Hash Map Interview Problems",
-          "description": "Solve interview problems using hash map patterns",
-          "difficulty": "Medium",
           "status": "Not Started"
         }
       ]

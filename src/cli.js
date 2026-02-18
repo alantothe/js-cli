@@ -8,6 +8,7 @@ const exercisesData = require('../config/exercises-manifest.json');
 const { ensureProfile, loadProfile } = require('./profile');
 const { getDailyQuote } = require('./quotes');
 const { showDashboard } = require('./dashboard');
+const { selectTopicWithCards } = require('./topic-picker');
 
 // Color codes for terminal output
 const colors = {
@@ -36,9 +37,9 @@ function getDifficultyBadge(difficulty) {
 
 function getStatusBadge(status) {
   const badges = {
-    'Not Started': colorize('Not Started', colors.dim),
-    'In Progress': colorize('In Progress', colors.yellow),
-    Completed: colorize('Completed', colors.green),
+    'Not Started': colorize('NS', colors.dim),
+    'In Progress': colorize('IP', colors.yellow),
+    Completed: colorize('Done', colors.green),
   };
   return badges[status] || status;
 }
@@ -59,31 +60,11 @@ function waitForEnter(message = '') {
 }
 
 async function selectTopic() {
-  displayHeader();
-
-  const topicChoices = exercisesData.topics.map((topic) => ({
-    name: `${topic.name} - ${topic.description}`,
-    value: topic.id,
-    short: topic.name,
-  }));
-
-  topicChoices.unshift({ name: '\uD83D\uDCCA Dashboard', value: 'dashboard', short: 'Dashboard' });
-  topicChoices.push(new inquirer.Separator());
-  topicChoices.push({ name: 'Exit', value: 'exit', short: 'Exit' });
-
-  const { topicId } = await inquirer.prompt([
-    {
-      type: 'list',
-      name: 'topicId',
-      message: 'Select a topic:',
-      choices: topicChoices,
-      pageSize: 15,
-    },
-  ]);
+  const profile = global.__profile || loadProfile();
+  const topicId = await selectTopicWithCards(profile, exercisesData.topics);
 
   if (topicId === 'dashboard') {
     const quote = await getDailyQuote();
-    const profile = global.__profile || loadProfile();
     await showDashboard(profile, exercisesData, quote);
     await selectTopic();
     return;
@@ -117,7 +98,7 @@ async function selectExercise(topic) {
     {
       type: 'list',
       name: 'exerciseId',
-      message: `Select an exercise in ${topic.name}:`,
+      message: 'Exercise:',
       choices: exerciseChoices,
       pageSize: 15,
     },

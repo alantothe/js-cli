@@ -24,6 +24,12 @@ function HRule({ ch, width }) {
   return h(Text, { dimColor: true }, (ch || '\u2500').repeat(width || 40));
 }
 
+function truncate(text, max) {
+  if (!text) return '';
+  if (text.length <= max) return text;
+  return text.slice(0, max - 1) + '\u2026';
+}
+
 function Dashboard({ profile, topics, quote }) {
   const allExercises = [];
   topics.forEach(function (t) {
@@ -42,87 +48,51 @@ function Dashboard({ profile, topics, quote }) {
   const mediumDone = medium.filter(function (e) { return e.status === 'Completed'; }).length;
   const hardDone = hard.filter(function (e) { return e.status === 'Completed'; }).length;
 
-  return h(Box, { flexDirection: 'column', padding: 1 },
-    // Welcome banner
-    h(Box, { borderStyle: 'double', borderColor: 'cyan', paddingX: 2 },
-      h(Text, { bold: true, color: 'cyan' }, '   Welcome back, ' + profile.name + '!')
-    ),
+  return h(Box, { flexDirection: 'column', paddingX: 1, paddingY: 1 },
+    h(Text, { bold: true, color: 'cyan' }, 'Hi, ' + profile.name),
+    h(Text, { dimColor: true }, 'Goal: ' + profile.goal),
+    h(HRule, { width: 66 }),
+
+    h(Text, { bold: true, color: 'green' }, 'Quote'),
+    h(Text, { italic: true, wrap: 'truncate-end' }, '"' + truncate(quote ? quote.text : '', 72) + '"'),
+    h(Text, { dimColor: true }, '\u2014 ' + (quote ? quote.author : 'Unknown')),
     h(Text, null, ''),
 
-    // Goal + Quote row
-    h(Box, { flexDirection: 'row', justifyContent: 'flex-start' },
-      h(Box, { borderStyle: 'round', borderColor: 'yellow', paddingX: 1, marginRight: 2, width: 28 },
-        h(Box, { flexDirection: 'column' },
-          h(Text, { bold: true, color: 'yellow' }, 'Current Goal'),
-          h(Text, null, profile.goal)
-        )
+    h(Text, { bold: true, color: 'cyan' }, 'Progress  ' + completedExercises + '/' + totalExercises),
+    h(ProgressBar, { completed: completedExercises, total: totalExercises, width: 40 }),
+    h(Text, null, ''),
+
+    h(Text, { bold: true, color: 'magenta' }, 'Difficulty'),
+    h(Box, { flexDirection: 'row' },
+      h(Box, { marginRight: 4, flexDirection: 'column' },
+        h(Text, { color: 'green' }, 'Easy   ' + easyDone + '/' + easy.length),
+        h(MiniBar, { completed: easyDone, total: easy.length })
       ),
-      h(Box, { borderStyle: 'round', borderColor: 'green', paddingX: 1, width: 46 },
-        h(Box, { flexDirection: 'column' },
-          h(Text, { bold: true, color: 'green' }, 'Daily Quote'),
-          h(Text, { italic: true, wrap: 'wrap' }, '"' + (quote ? quote.text : '') + '"'),
-          h(Text, { dimColor: true }, '\u2014 ' + (quote ? quote.author : 'Unknown'))
-        )
+      h(Box, { marginRight: 4, flexDirection: 'column' },
+        h(Text, { color: 'yellow' }, 'Medium ' + mediumDone + '/' + medium.length),
+        h(MiniBar, { completed: mediumDone, total: medium.length })
+      ),
+      h(Box, { flexDirection: 'column' },
+        h(Text, { color: 'red' }, 'Hard   ' + hardDone + '/' + hard.length),
+        h(MiniBar, { completed: hardDone, total: hard.length })
       )
     ),
     h(Text, null, ''),
 
-    // Overall progress
-    h(Box, { borderStyle: 'round', borderColor: 'cyan', paddingX: 1 },
-      h(Box, { flexDirection: 'column' },
-        h(Text, { bold: true, color: 'cyan' }, 'Overall Progress: ' + completedExercises + '/' + totalExercises),
-        h(ProgressBar, { completed: completedExercises, total: totalExercises, width: 40 })
-      )
-    ),
-    h(Text, null, ''),
-
-    // Difficulty breakdown
-    h(Box, { borderStyle: 'round', borderColor: 'magenta', paddingX: 1 },
-      h(Box, { flexDirection: 'column' },
-        h(Text, { bold: true, color: 'magenta' }, 'Difficulty Breakdown'),
-        h(Box, { flexDirection: 'row', justifyContent: 'flex-start' },
-          h(Box, { marginRight: 3 },
-            h(Box, { flexDirection: 'column' },
-              h(Text, { color: 'green' }, 'Easy: ' + easyDone + '/' + easy.length),
-              h(MiniBar, { completed: easyDone, total: easy.length })
-            )
-          ),
-          h(Box, { marginRight: 3 },
-            h(Box, { flexDirection: 'column' },
-              h(Text, { color: 'yellow' }, 'Medium: ' + mediumDone + '/' + medium.length),
-              h(MiniBar, { completed: mediumDone, total: medium.length })
-            )
-          ),
-          h(Box, null,
-            h(Box, { flexDirection: 'column' },
-              h(Text, { color: 'red' }, 'Hard: ' + hardDone + '/' + hard.length),
-              h(MiniBar, { completed: hardDone, total: hard.length })
-            )
-          )
-        )
-      )
-    ),
-    h(Text, null, ''),
-
-    // Topic progress
-    h(Box, { borderStyle: 'round', borderColor: 'blue', paddingX: 1 },
-      h(Box, { flexDirection: 'column' },
-        h(Text, { bold: true, color: 'blue' }, 'Topic Progress'),
-        h(Box, { flexDirection: 'column' },
-          topics.map(function (topic) {
-            var done = topic.exercises.filter(function (e) { return e.status === 'Completed'; }).length;
-            var total = topic.exercises.length;
-            var nameStr = topic.name;
-            // Pad name to 32 chars for alignment
-            while (nameStr.length < 32) nameStr += ' ';
-            return h(Box, { key: topic.id, flexDirection: 'row' },
-              h(Text, null, '  ' + nameStr),
-              h(MiniBar, { completed: done, total: total, width: 10 }),
-              h(Text, { dimColor: done === 0 }, ' ' + done + '/' + total)
-            );
-          })
-        )
-      )
+    h(Text, { bold: true, color: 'blue' }, 'Topics'),
+    h(HRule, { width: 66 }),
+    h(Box, { flexDirection: 'column' },
+      topics.map(function (topic) {
+        var done = topic.exercises.filter(function (e) { return e.status === 'Completed'; }).length;
+        var total = topic.exercises.length;
+        var nameStr = truncate(topic.name, 28);
+        while (nameStr.length < 30) nameStr += ' ';
+        return h(Box, { key: topic.id, flexDirection: 'row' },
+          h(Text, null, nameStr),
+          h(MiniBar, { completed: done, total: total, width: 10 }),
+          h(Text, { dimColor: done === 0 }, ' ' + done + '/' + total)
+        );
+      })
     ),
     h(Text, null, ''),
     h(Text, { dimColor: true }, 'Press any key to continue...')

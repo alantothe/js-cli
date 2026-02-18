@@ -1,6 +1,6 @@
 # JavaScript Learning CLI
 
-An interactive command-line learning platform for JavaScript fundamentals. This tool guides users through structured exercises organized by topics with Jest-based testing and immediate feedback.
+An interactive command-line learning platform focused on DSA interview preparation in JavaScript. The curriculum is structured as an interview-first progression with Jest-based testing and immediate feedback.
 
 ## Built with:
 
@@ -14,21 +14,10 @@ An interactive command-line learning platform for JavaScript fundamentals. This 
 
 - **Interactive CLI Menu**: Navigate through topics and exercises with an intuitive interface
 - **Jest-Based Testing**: Instant feedback on exercise solutions with a custom test reporter
-- **Comprehensive Topics**:
-  - Array Methods (map, filter, reduce, etc.)
-  - Loops (for, while, for...of)
-  - Hash Maps (objects, Map, Set)
-  - Math & Random
-  - String Methods
-  - Conditionals
-  - Functions
-  - Linked Lists
-  - Helper Methods
-  - Common Patterns
-  - Searching & Sorting Algorithms
-  - Recursion
-  - Data Structures
-  - Plus LeetCode & HackerRank challenges
+- **Interview-Ready Curriculum**:
+  - DSA-first ordering (binary search, sorting, sliding window, hash maps, stacks/queues, trees, graphs, heaps, DP)
+  - Pattern-focused progression to build reusable interview intuition
+  - Platform practice modules with LeetCode and HackerRank sets
 - **VS Code Integration**: Open exercises directly in VS Code from the CLI
 - **Exercise Reset**: Reset any exercise to its original state
 - **Progress Tracking**: Monitor your learning progress
@@ -72,7 +61,7 @@ npm start
 
 This launches the interactive CLI menu where you can:
 
-1. **Select a Topic**: Choose from 17 topics covering JavaScript fundamentals to advanced algorithms
+1. **Select a Topic**: Follow a DSA-first learning path from core patterns to advanced interview problems
 2. **Select an Exercise**: Pick an exercise within the selected topic
 3. **Choose an Action**:
    - **Open in VS Code**: Opens the exercise in your default editor
@@ -148,7 +137,7 @@ exercises/1-array-methods/1-map/
 
 ## How It Works
 
-1. **Select a Topic**: Browse topics covering different JavaScript concepts
+1. **Select a Topic**: Start with interview-critical DSA modules
 2. **Pick an Exercise**: Choose an exercise within that topic
 3. **Write Your Solution**: Edit `solution.js` in your editor
 4. **Run Tests**: Get instant feedback on your implementation
@@ -167,7 +156,7 @@ The custom test reporter provides:
 ## Tips for Success
 
 - **Read the README**: Each exercise includes a README with learning objectives and concepts
-- **Start Simple**: Begin with array methods and loops before moving to advanced topics
+- **Follow the Path**: Complete topics in order to build interview pattern recognition
 - **Test Often**: Run tests frequently to validate your understanding
 - **Reset if Needed**: Use the reset feature to start an exercise over
 - **Understand, Don't Memorize**: Focus on understanding the concepts, not just making tests pass
